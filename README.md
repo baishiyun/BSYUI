@@ -11,3 +11,5 @@
     .bsy_backColor([UIColor whiteColor])
     .bsy_borderColor([UIColor blackColor])
     .bsy_Rect(CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height));
+    [self.view addSubview:view];
+
